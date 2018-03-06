@@ -1,0 +1,27 @@
+﻿生成启动时间为 2017/12/24 23:54:38。
+     1>项目“D:\XJL\AWorkStation\GMM\GMM\GMM.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yu"stdafx.h" /Fp"Debug\GMM.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GMM.cpp
+         GMM.cpp
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(3): warning C4627: “#include <cv.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(4): warning C4627: “#include <highgui.h>”:  在查找预编译头使用时跳过
+                 将指令添加到“stdafx.h”或重新生成预编译头
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(7): error C2871: “cv”: 具有该名称的命名空间不存在
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(11): error C2065: “IplImage”: 未声明的标识符
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(11): error C2065: “test”: 未声明的标识符
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(12): error C2065: “test”: 未声明的标识符
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(12): warning C4129: “X”: 不可识别的字符转义序列
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(12): error C3861: “cvLoadImage”:  找不到标识符
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(13): error C3861: “cvNamedWindow”:  找不到标识符
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(14): error C2065: “test”: 未声明的标识符
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(14): error C3861: “cvShowImage”:  找不到标识符
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(15): error C3861: “cvWaitKey”:  找不到标识符
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(16): error C3861: “cvDestroyWindow”:  找不到标识符
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(17): error C2065: “test”: 未声明的标识符
+     1>d:\xjl\aworkstation\gmm\gmm\gmm.cpp(17): error C3861: “cvReleaseImage”:  找不到标识符
+     1>已完成生成项目“D:\XJL\AWorkStation\GMM\GMM\GMM.vcxproj”(ClCompile 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.33
