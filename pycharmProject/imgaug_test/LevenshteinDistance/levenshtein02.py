@@ -19,7 +19,8 @@ def levenshtein(str1, str2):
             print(' ', end='')
 
         print('\n')
-    print('the distance of "'+ str1 + '" and "' +str2+'" is: ')
+    print('the distance of'
+          ' "'+ str1 + '" and "' +str2+'" is: ')
     return matrix[len(str1)][len(str2)]
 
 str1 = raw_input('please input the first string: ')
